@@ -1,1 +1,28 @@
-IyBIaSwgSSdtIE1vaGFtbWFkIEFkZWViIPCfkYsKCkkgYnVpbGQgd2ViIGV4cGVyaWVuY2VzIHdoZXJlIG1vdGlvbiBjYXJyaWVzIHRoZSBzdG9yeSDigJQgbm90IGp1c3QgZGVjb3JhdGlvbiBib2x0ZWQgb24gdG9wLgoKLS0tCgojIyDwn4yeIEZlYXR1cmVkIHByb2plY3Qg4oCUIEFEIFNvbGFyIENvbXBhbnkKCjxhIGhyZWY9Imh0dHBzOi8vYW5pbWEtdGFsZXMubG92YWJsZS5hcHAiPgogIDxpbWcgc3JjPSJhc3NldHMvc29sYXItc2Nyb2xsLmdpZiIgYWx0PSJBRCBTb2xhciBDb21wYW55IOKAlCBzY3JvbGwtZHJpdmVuIHNvbGFyIGFuaW1hdGlvbiIgd2lkdGg9IjEwMCUiIC8+CjwvYT4KCioqQUQgU29sYXIgQ29tcGFueSoqIGlzIGEgcmVuZXdhYmxlLWVuZXJneSB3ZWJzaXRlIGJ1aWx0IGFyb3VuZCBhIGNpbmVtYXRpYyBzY3JvbGwgYW5pbWF0aW9uOiBhIDEyMC1mcmFtZSBzb2xhciBzZXF1ZW5jZSDigJQgdGhlIHN1biBpbiBkZWVwIHNwYWNlLCBsaWdodCB0cmF2ZWxsaW5nIHRvIEVhcnRoLCBwYW5lbHMgZmlsbGluZyB0aGUgZnJhbWUg4oCUIHBsYXlzIGFzIHRoZSBiYWNrZ3JvdW5kIG9mIHRoZSBlbnRpcmUgcGFnZSwgc2NydWJiZWQgZnJhbWUtYnktZnJhbWUgYnkgeW91ciBzY3JvbGwgcG9zaXRpb24uCgo+IOKaoSAqKkxpdmUgc2l0ZToqKiBbYW5pbWEtdGFsZXMubG92YWJsZS5hcHBdKGh0dHBzOi8vYW5pbWEtdGFsZXMubG92YWJsZS5hcHApCgoqKldoYXQncyB1bmRlciB0aGUgaG9vZCoqCgotIDEyMCBoYW5kLWdlbmVyYXRlZCBmcmFtZXMgc3RyZWFtZWQgZnJvbSBhIENETiBhbmQgcHJlbG9hZGVkIGJlZm9yZSB0aGUgYW5pbWF0aW9uIHN0YXJ0cwotIEEgc3RpY2t5IGA8Y2FudmFzPmAgZHJpdmVuIGJ5IHNjcm9sbCBwcm9ncmVzcyB3aXRoIGByZXF1ZXN0QW5pbWF0aW9uRnJhbWVgLCBzbyBwbGF5YmFjayBzdGF5cyBzbW9vdGggYXQgYW55IHNjcm9sbCBzcGVlZAotIEdsYXNzLW1vcnBoaXNtIGNvbnRlbnQgc2VjdGlvbnMgbGF5ZXJlZCBvdmVyIHRoZSBzZXF1ZW5jZSwgc28gdGhlIHN0b3J5IHJlYWRzIGJlaGluZCByZWFsIHBhZ2UgY29udGVudAotIFJlYWN0IDE5IMK3IFRhblN0YWNrIFN0YXJ0IMK3IFRhaWx3aW5kIENTUyB2NAoKLS0tCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL2FuaW1hLXRhbGVzLmxvdmFibGUuYXBwIj48aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9WaWV3JTIwbGl2ZSUyMHNpdGUtQUQlMjBTb2xhciUyMENvbXBhbnktODRjYzE2P3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1nb29nbGVjaHJvbWUmbG9nb0NvbG9yPXdoaXRlIiBhbHQ9IlZpZXcgbGl2ZSBzaXRlIiAvPjwvYT4KPC9wPgo=
+# Hi, I'm Mohammad Adeeb 👋
+
+I build web experiences where motion carries the story — not just decoration bolted on top.
+
+---
+
+## 🌞 Featured project — AD Solar Company
+
+<a href="https://anima-tales.lovable.app">
+  <img src="assets/solar-scroll.gif" alt="AD Solar Company — scroll-driven solar animation" width="100%" />
+</a>
+
+**AD Solar Company** is a renewable-energy website built around a cinematic scroll animation: a 120-frame solar sequence — the sun in deep space, light travelling to Earth, panels filling the frame — plays as the background of the entire page, scrubbed frame-by-frame by your scroll position.
+
+> ⚡ **Live site:** [anima-tales.lovable.app](https://anima-tales.lovable.app)
+
+**What's under the hood**
+
+- 120 hand-generated frames streamed from a CDN and preloaded before the animation starts
+- A sticky `<canvas>` driven by scroll progress with `requestAnimationFrame`, so playback stays smooth at any scroll speed
+- Glass-morphism content sections layered over the sequence, so the story reads behind real page content
+- React 19 · TanStack Start · Tailwind CSS v4
+
+---
+
+<p align="center">
+  <a href="https://anima-tales.lovable.app"><img src="https://img.shields.io/badge/View%20live%20site-AD%20Solar%20Company-84cc16?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View live site" /></a>
+</p>
